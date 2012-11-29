@@ -32,6 +32,7 @@
 		28AD73600D9D9599002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD735F0D9D9599002E5188 /* MainWindow.xib */; };
 		28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28C286E00D94DF7D0034E888 /* RootViewController.m */; };
 		28F335F11007B36200424DE2 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28F335F01007B36200424DE2 /* RootViewController.xib */; };
+		33651B1C16530EAC003E52FE /* MPOAuthCredentialConcreteStore+KeychainAdditionsiPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD262A5111E410A0003486C /* MPOAuthCredentialConcreteStore+KeychainAdditionsiPhone.m */; };
 		CB36C2E21124CE51005CF675 /* Base64Transcoder.c in Sources */ = {isa = PBXBuildFile; fileRef = CBD26293111E410A0003486C /* Base64Transcoder.c */; };
 		CB36C2E31124CE51005CF675 /* MPOAuthAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD26298111E410A0003486C /* MPOAuthAPI.m */; };
 		CB36C2E41124CE51005CF675 /* MPOAuthAPIRequestLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD2629A111E410A0003486C /* MPOAuthAPIRequestLoader.m */; };
@@ -1032,6 +1033,7 @@
 				1D3623260D0F684500981E51 /* MPOAuthMobileAppDelegate.m in Sources */,
 				28C286E10D94DF7D0034E888 /* RootViewController.m in Sources */,
 				CB36C4051124D65D005CF675 /* UserAuthViewController.m in Sources */,
+				33651B1C16530EAC003E52FE /* MPOAuthCredentialConcreteStore+KeychainAdditionsiPhone.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1313,7 +1315,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = "";
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -1326,7 +1328,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				SDKROOT = "";
+				SDKROOT = iphoneos;
 			};
 			name = Release;
 		};
@@ -1432,6 +1434,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				PRODUCT_NAME = "Build All";
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -1442,6 +1445,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				PRODUCT_NAME = "Build All";
+				SDKROOT = iphoneos;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -1717,7 +1721,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = MPOAuth;
-				SDKROOT = "";
+				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
@@ -1746,7 +1750,7 @@
 				);
 				PREBINDING = NO;
 				PRODUCT_NAME = MPOAuth;
-				SDKROOT = macosx;
+				SDKROOT = iphoneos;
 				ZERO_LINK = NO;
 			};
 			name = Release;
